@@ -11,6 +11,11 @@
 | Combination Sampling | ![combo_acc.png](Resources/combo_acc.png)                 | ![combo_matrix.png](Resources/combo_matrix.png) |
 
 
-### Ensemle Results
+### Ensemble Results
+| Ensemble Type      | Accuracy Score                          | Precision and Sensitivity  |
+| :-------------:    |:-------------:                          | :-------------:|
+| Random Forest      | ![brf_acc.png](Resources/brf_acc.png)   | ![brf_matrix.png](Resources/brf_matrix.png) |
+| Easy Ensemble      | ![eec_acc.png](Resources/eec_acc.png)   | ![eec_matrix.png](Resources/eec_matrix.png) |
+
 ## Summary
 
