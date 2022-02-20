@@ -38,4 +38,6 @@ Precision for high risk applications, precision for low risk application, sensit
 
 ## Summary
 
-If we look at the numbers showing how each model performed, the model that performed the best seems to be the Easy Ensemble Adaboost Classifier. It had the higest accuracy score and had the highest sensitivity when it came to picking up high risk applications. The only model that I feel would be worth using would be the Easy Ensemble Adaboost Classifier. While it is not very precise at properly detecting high risk credit applications, the sensitivity score means that it will be more likely to pick high risk credit applications even though it may pick up a few false positves. In the event of a false high risk alert application, in theory, we could always manually review those applications to see if they are in fact high risk.
+In looking at the results produced by the two ensemble models, we can pinpoint the Easy Ensemble Adabook Classifier as the best performing model. We can categorize it as such by looking at the accuracy and sensitivity scores with regards to high risk applications. In these categories, it outperformed the Balanced Random Forest Classifier. 
+
+Due to Easy Ensemble Adabook Classifier's outperformance, I believe it is the model that is worth using. The high sensitivity score ensures that it will find more high risk applications than may actually exist, but in my mind it is better to play it safe with loans. 
