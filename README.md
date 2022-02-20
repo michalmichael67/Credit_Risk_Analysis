@@ -13,6 +13,13 @@ In the proccess os resampling, we executed the following steps:
 5. Displayed the confusion matrix
 6. Printed the imbalanced classification report
 
+In the below charts, the way to read the Precision and Sensitivity chart is as follows:
+Precision for high risk applications, precision for low risk application, sensitivity for high risk applications, sensitivity for low risk applications
+|                 | Pre                   | Rec  |
+| :-------------: |:-------------:        | :-------------:|
+| High Risk       | Precision for high risk applications |  Sensitivity for high risk applications |
+| Low Risk        | Precision for low risk applications |  Sensitivity for low risk applications |
+
 ### Resampling Results
 
 | Resampling Type      | Accuracy Score                                            | Precision and Sensitivity  |
